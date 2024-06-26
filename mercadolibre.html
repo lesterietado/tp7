@@ -6,20 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .box {
-           width: 350px;
-           padding: 20px;
-           background-color: #ffffff;
-           margin: 10px;
-           text-align: center;
-           
-       }
+        header{
+            background: rgb(60,55,98);
+            background: linear-gradient(90deg, rgba(60,55,98,1) 0%, rgba(48,9,121,1) 35%, rgba(0,172,255,1) 100%);
+            justify-content: space-between;
+            display: flex;
+            align-items: center;
+            img{
+                margin: 5px;
+            }
+            a{
+                margin: 10px;
+                text-decoration: none;
+                color: white;
+                text-transform: uppercase;
+            }
+
+            
+        }
+        body{
+            margin: 0px;
+            border: 0px;
+            background-color: rgb(157, 194, 223);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        main{
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 0 50px;
+
+        }
+        .box{
+            margin: 50px;
+
+        }
        
     </style>
 </head>
 
 <body>
-
+    <header>
+        <img src="carrito-de-compras.png" alt="" height="105" width="105">
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">mas productos</a>
+    </header>
+    <main>
     <div class="box">
         <img src="https://www.canigo.com.ar/wp-content/uploads/11514_1.jpg" alt="" height="200" width="200">
         <h3>carpa para 6 personas</h3>
@@ -30,7 +61,7 @@
         <h3>zapatillas rebook</h3>
         <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Farticulo.mercadolibre.com.ar%2FMLA-1420880684-zapatilla-reebok-mujer-princess-br-moda-original-negro-_JM&psig=AOvVaw0YaFRmibLbvvwku-gnJT3j&ust=1717876275573000&source=images&cd=vfe&opi=89978449&ved=0CBQQjhxqFwoTCJD_vPyhyoYDFQAAAAAdAAAAABAE">compra aqui</a>
     </div>
-    <div class="box">
+    <div class="box" >
         <img src="https://pbs.twimg.com/media/D3gXVOgW4AIuxR5.jpg" alt="" height="200" width="200">
         <h3>gaseosa leñerito</h3>
         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">compra aqui</a>
@@ -50,7 +81,7 @@
         <h3>mas vendidos</h3>
         <button>los productos mas vendidos</button>
     </div>
-
+</main>
    
 </body>
 
